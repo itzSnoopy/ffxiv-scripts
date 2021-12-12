@@ -1,8 +1,17 @@
 # --------------------------------------------
+# Disclaimer
+# --------------------------------------------
+# FFXIV does not support the usage of 3RD party tools. As such, you may get banned or tagged as a BOT.
+# Use this at your own risk and with responsability.
+# This is meant for small breaks that would otherwise afk kick you.
+
+
+# --------------------------------------------
 # Purpose
 # --------------------------------------------
-# This script will continue running until you press CTRL+Z or close this window. Preventing AFK status on FFXIV, Microsoft Teams or other software.
+# This script will continue running until you press CTRL+Z or close this window. Preventing AFK status on FFXIV or other software.
 # Intended to work with Powershell 5, this script is given as is
+
 
 # --------------------------------------------
 # Configuration
@@ -15,8 +24,8 @@ $keyWhenOdd = "Q"
 # Enter your preferred time intervals
 $startupTime = 3           # Time for the script to start, should be enough to switch your desired program to active windows before going AFK
 
-$intervalMax = 240         # Maximum random amount of time to wait between key presses in seconds
-$intervalMin = 60          # Minimum random amount of time to wait between key presses in seconds
+$intervalMax = 300         # Maximum random amount of time to wait between key presses in seconds
+$intervalMin = 120         # Minimum random amount of time to wait between key presses in seconds
 
 # --------------------------------------------
 # HOW-TO
