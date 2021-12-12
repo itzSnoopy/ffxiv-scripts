@@ -3,7 +3,7 @@
 # --------------------------------------------
 # FFXIV does not support the usage of 3RD party tools. As such, you may get banned or tagged as a BOT.
 # Use this at your own risk and with responsability.
-# This is meant for small breaks that would otherwise afk kick you.
+# This is meant for small breaks that would otherwise afk kick you, not to forever AFK Emote in LIMSA.
 
 
 # --------------------------------------------
