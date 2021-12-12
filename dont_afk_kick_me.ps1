@@ -17,15 +17,15 @@
 # Configuration
 # --------------------------------------------
 
-# Enter your selected Keys
+# Enter your selected Keys, more about supported keys: https://ss64.com/vb/sendkeys.html
 $keyWhenEven = "F1"
-$keyWhenOdd = "Q"
+$keyWhenOdd = "X"
 
 # Enter your preferred time intervals
 $startupTime = 3           # Time for the script to start, should be enough to switch your desired program to active windows before going AFK
 
-$intervalMax = 300         # Maximum random amount of time to wait between key presses in seconds
-$intervalMin = 120         # Minimum random amount of time to wait between key presses in seconds
+$intervalMax = 1200        # Maximum random amount of time to wait between key presses in seconds
+$intervalMin = 600         # Minimum random amount of time to wait between key presses in seconds
 
 # --------------------------------------------
 # HOW-TO
